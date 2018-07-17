@@ -16,7 +16,7 @@ function columnsToPercentWidth(number){
 	if (number <= 0) {
 		return "0%";
 	} else {
-		var result = 100 / number
+		var result = 100 / number;
 		return parseInt(result).toString() + "%";
 	}
 }

@@ -6,7 +6,7 @@
 //
 //------------------------------------------------------------------
 function sumOrZero(number1, number2){
-	var sum = number1 + number2 
+	var sum = number1 + number2; 
 	if (sum < 0) {
 		return 0;
 	} else {
